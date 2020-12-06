@@ -1,0 +1,18 @@
+/**
+ * Our main CSS entry point
+ */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Define color scheme somewhere like this */
+:root {
+	--primary-100: #002200;
+	--primary-200: #003300;
+	/* etc */
+}
+
+body {
+	@apply text-primary-100;
+}

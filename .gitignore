@@ -1,0 +1,7 @@
+node_modules
+
+// Our built files
+dist
+
+// Local browsersync config
+bs-config.js
